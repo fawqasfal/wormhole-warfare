@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Packaged mod releases
+*.zip
+
+# Factorio dev/test artifacts
+saves/
+script-output/
+factorio-current.log
