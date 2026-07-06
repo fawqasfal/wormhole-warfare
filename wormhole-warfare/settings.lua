@@ -1,0 +1,43 @@
+data:extend({
+  {
+    type = "bool-setting",
+    name = "ww-auto-claim",
+    setting_type = "runtime-global",
+    default_value = true,
+    order = "a",
+  },
+  {
+    type = "bool-setting",
+    name = "ww-require-online",
+    setting_type = "runtime-global",
+    default_value = true,
+    order = "b",
+  },
+  {
+    type = "int-setting",
+    name = "ww-invasion-duration",
+    setting_type = "runtime-global",
+    default_value = 30,
+    minimum_value = 5,
+    maximum_value = 180,
+    order = "c",
+  },
+  {
+    type = "int-setting",
+    name = "ww-beachhead-distance",
+    setting_type = "runtime-global",
+    default_value = 250,
+    minimum_value = 100,
+    maximum_value = 2000,
+    order = "d",
+  },
+  {
+    type = "int-setting",
+    name = "ww-post-invasion-truce",
+    setting_type = "runtime-global",
+    default_value = 15,
+    minimum_value = 0,
+    maximum_value = 720,
+    order = "e",
+  },
+})
