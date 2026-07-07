@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "title": "Wormhole Warfare",
   "author": "fawqasfal",
-  "factorio_version": "2.0",
-  "dependencies": ["base >= 2.0", "space-age"],
+  "factorio_version": "2.1",
+  "dependencies": ["base >= 2.1", "space-age"],
   "description": "PvP total conversion: every player gets their own world, and a wormhole past Aquilo lets you invade other players. Sue for peace with tribute contracts that buy timed ceasefires."
 }
