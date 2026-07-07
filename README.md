@@ -73,4 +73,3 @@ factorio --mod-directory <dir> --benchmark /tmp/test.zip --benchmark-ticks 600  
 
 Real invasion/diplomacy flows need two players: start a local multiplayer game and
 connect a second instance with `--mp-connect localhost`.
-
